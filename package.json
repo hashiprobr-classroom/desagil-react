@@ -10,8 +10,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/ngrok": "4.1.0",
-    "@expo/webpack-config": "18.0.1",
+    "@hashiprobr/react-create-state-context": "1.1.0",
     "@react-navigation/native": "6.1.6",
     "expo": "48.0.10",
     "expo-status-bar": "1.4.4",
@@ -23,6 +22,11 @@
     "react-native-web": "0.18.10"
   },
   "devDependencies": {
-    "@babel/core": "7.20.0"
+    "@babel/core": "7.21.4",
+    "@expo/ngrok": "4.1.0",
+    "@expo/webpack-config": "18.0.4",
+    "eslint": "8.38.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-native": "4.0.0"
   }
 }

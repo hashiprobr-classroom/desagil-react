@@ -8,8 +8,11 @@ module.exports = async function (env, argv) {
         babel: {
             dangerouslyAddModulePathsToTranspile: [
                 '@hashiprobr/react-create-state-context',
+                '@hashiprobr/react-native-rounded-view',
                 '@hashiprobr/react-native-aspect-image',
                 '@hashiprobr/react-native-paper-icon',
+                '@hashiprobr/react-native-paper-dropdown',
+                '@hashiprobr/react-native-paper-datetimepicker',
             ],
         },
     }, argv);

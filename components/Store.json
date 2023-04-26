@@ -1,0 +1,28 @@
+{
+    "container": {
+        "flexGrow": 0,
+        "flexDirection": "row",
+        "alignItems": "center"
+    },
+    "avatar": {
+        "width": 50,
+        "height": 50,
+        "margin": 10,
+        "borderRadius": 25
+    },
+    "outer": {
+        "flexGrow": 1,
+        "marginLeft": 15
+    },
+    "inner": {
+        "flexDirection": "row"
+    },
+    "rating": {
+        "color": "#ff7700"
+    },
+    "image": {
+        "width": 25,
+        "height": 25,
+        "margin": 25
+    }
+}

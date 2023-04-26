@@ -1,0 +1,27 @@
+{
+    "container": {
+        "flexGrow": 1
+    },
+    "chipbar": {
+        "flexGrow": 0,
+        "padding": 10
+    },
+    "itemContainer": {
+        "flexDirection": "row",
+        "flexWrap": "wrap"
+    },
+    "item": {
+        "width": "25%",
+        "padding": 10
+    },
+    "itemImage": {
+        "width": "100%",
+        "borderRadius": 5
+    },
+    "itemCaption": {
+        "alignSelf": "center"
+    },
+    "title": {
+        "margin": 10
+    }
+}

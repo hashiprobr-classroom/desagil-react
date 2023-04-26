@@ -1,27 +1,37 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 
-import { useTheme, Text, Switch } from 'react-native-paper';
+import { useTheme } from '@react-navigation/native';
 
-import { useDark } from '../tools';
+import Icon from '@hashiprobr/react-native-paper-icon';
+
+import Home from './home/Home';
+import Search from './search/Search';
+import Profile from './Profile';
+
+const MaterialBottomTab = createMaterialBottomTabNavigator();
 
 export default function Main(props) {
     const theme = useTheme();
 
-    const [dark, setDark] = useDark();
+    function homeIcon({ color }) {
+        return <Icon name="home" color={color} />;
+    }
+
+    function searchIcon({ color }) {
+        return <Icon name="magnify" color={color} />;
+    }
+
+    function profileIcon({ color }) {
+        return <Icon name="account" color={color} />;
+    }
 
     return (
-        <View
-            style={{
-                flexGrow: 1,
-                justifyContent: 'space-around',
-                alignItems: 'center',
-                backgroundColor: theme.colors.background,
-            }}
-        >
-            <Text>Abra Main.js para começar a trabalhar no seu app!</Text>
-            <Switch value={dark} onValueChange={() => setDark(!dark)} />
-        </View>
+        <MaterialBottomTab.Navigator initialRouteName="" screenOptions={theme.screenOptions}>
+            <MaterialBottomTab.Screen name="Home" component={Home} options={{ tabBarIcon: homeIcon }} />
+            <MaterialBottomTab.Screen name="Search" component={Search} options={{ tabBarIcon: searchIcon }} />
+            <MaterialBottomTab.Screen name="Profile" component={Profile} options={{ tabBarIcon: profileIcon }} />
+        </MaterialBottomTab.Navigator>
     );
 }

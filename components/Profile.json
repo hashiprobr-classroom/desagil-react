@@ -1,0 +1,21 @@
+{
+    "container": {
+        "flexGrow": 1
+    },
+    "roundedview": {
+        "alignSelf": "center",
+        "width": "25%",
+        "aspectRatio": 1,
+        "margin": 25
+    },
+    "image": {
+        "width": "100%",
+        "height": "100%"
+    },
+    "form": {
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 10,
+        "marginLeft": 10
+    }
+}

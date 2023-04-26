@@ -1,0 +1,15 @@
+{
+    "container": {
+        "flexGrow": 1
+    },
+    "chipbar": {
+        "flexGrow": 0,
+        "padding": 10
+    },
+    "searchbar": {
+        "margin": 10
+    },
+    "title": {
+        "margin": 10
+    }
+}

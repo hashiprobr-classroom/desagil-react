@@ -1,0 +1,26 @@
+{
+    "container": {
+        "flexGrow": 1
+    },
+    "searchbar": {
+        "margin": 10
+    },
+    "categoryContainer": {
+        "flexDirection": "row",
+        "flexWrap": "wrap"
+    },
+    "category": {
+        "width": "50%"
+    },
+    "categoryImage": {
+        "height": 75,
+        "margin": 10,
+        "padding": 10,
+        "borderRadius": 5,
+        "overflow": "hidden"
+    },
+    "categoryText": {
+        "fontWeight": "bold",
+        "color": "#ffffff"
+    }
+}

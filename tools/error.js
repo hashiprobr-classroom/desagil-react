@@ -22,7 +22,7 @@ class ErrorBoundary extends React.Component {
                 alignItems: 'center',
             }}>
                 <Text>Something went wrong.</Text>
-                <Text>Check the console.</Text>
+                <Text>Check the Google Chrome console.</Text>
             </View>
         ) : (
             this.props.children

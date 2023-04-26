@@ -14,7 +14,10 @@
   "dependencies": {
     "@hashiprobr/react-create-state-context": "1.1.0",
     "@hashiprobr/react-native-aspect-image": "1.1.0",
+    "@hashiprobr/react-native-paper-datetimepicker": "1.2.0",
+    "@hashiprobr/react-native-paper-dropdown": "1.1.0",
     "@hashiprobr/react-native-paper-icon": "1.1.0",
+    "@hashiprobr/react-native-rounded-view": "1.1.0",
     "@hashiprobr/react-use-mount-and-update": "1.1.0",
     "@react-navigation/material-bottom-tabs": "6.2.15",
     "@react-navigation/material-top-tabs": "6.6.2",
@@ -26,6 +29,7 @@
     "react-dom": "18.2.0",
     "react-native": "0.71.7",
     "react-native-gesture-handler": "2.9.0",
+    "react-native-modal-datetime-picker": "13.1.2",
     "react-native-pager-view": "6.1.2",
     "react-native-paper": "5.6.0",
     "react-native-safe-area-context": "4.5.0",
